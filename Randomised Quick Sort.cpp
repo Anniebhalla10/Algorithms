@@ -73,7 +73,7 @@ int main()
 	int ans;
 	int size;
 	do{
-	       	cout<<"\n Enter the umber of elements ";		
+	       	cout<<"\n Enter the number of elements ";		
 			cin>>size;
 			int *A=new int[size];
 			value(A,size);
@@ -84,7 +84,7 @@ int main()
 			cout<<"\n Do you wish to continue ";
 			cin>>ch;
 						
-		}while(ch='y' || 'Y');
+		}while(ch=='y' ||ch== 'Y');
 
 	return 0;
 }
